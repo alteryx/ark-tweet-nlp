@@ -12,7 +12,7 @@ fi
 set -e -u -o pipefail -x
 cd `dirname $0`
 mvn deploy:deploy-file \
-  -Dfile=../../lib/stanford-postagger-2010-05-26.jar \
+  -Dfile=../../lib/posBerkeley/posBerkeley.jar \
   -DpomFile=pom.xml \
   -DrepositoryId=$MAVEN_REPOSITORY_ID \
   -Durl=$MAVEN_REPOSITORY_URL
