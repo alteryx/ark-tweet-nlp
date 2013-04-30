@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>posBerkeley</groupId>
+  <artifactId>posBerkeley</artifactId>
+  <version>2011-12-12</version>
+  <packaging>jar</packaging>
+  <name>posBerkeley</name>
+  <url>http://nlp.stanford.edu/software/tagger.shtml</url>
+
+  <developers>
+    <developer>
+      <name>Taylor Berg-Kirkpatrick</name>
+      <email>tberg AT cs DOT berkeley</email>
+      <url>http://www.cs.berkeley.edu/~tberg/</url>
+      <organization>U.C. Berkeley Computer Science</organization>
+      <organizationUrl>http://www.cs.berkeley.edu/</organizationUrl>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
+
